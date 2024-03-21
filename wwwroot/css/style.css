@@ -1,0 +1,99 @@
+﻿body {
+    margin: 0 0;
+    font-family: "Roboto", sans-serif;
+}
+p{
+    margin: 0 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 48px;
+    font-size: 18px;
+}
+.h-left{
+    display: flex;
+    align-items: center;
+}
+.m-right-16{
+    margin-right: 16px;
+}
+.mr-bottom-16{
+    margin-bottom: 16px;
+}
+.main {
+    padding: 16px 48px;
+}
+.d-flex{
+    display: flex;
+}
+.studentCount {
+    display: flex;
+    margin: 0 auto;
+    width: 50px;
+    border: 1px solid #cbcbcb;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.messagevalue {
+    width: 50px;
+    border: 1px solid #cbcbcb;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+.result {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid #cbcbcb;
+    height: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.input {
+    padding-top: 8px;
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid #cbcbcb;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    margin: 0 auto;
+    width: 10%;
+    text-align: center;
+    background-color: #3665ff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 18px;
+    color: white;
+    margin-top: 16px;
+    cursor: pointer;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 1s
+}
